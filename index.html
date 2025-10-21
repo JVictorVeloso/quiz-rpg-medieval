@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz RPG - Descubra seu Herói</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="start-screen" class="container">
+      <h1>QUIZ GAME</h1>
+      <p>
+        Bem-vindo a Aethelgard, um reino de magia antiga... descubra qual dos
+        espíritos heróicos habita em você.
+      </p>
+      <button id="start-button">Começar</button>
+    </div>
+
+    <div id="quiz-screen" class="container hide">
+      <div class="progress-container">
+        <div class="progress-bar">
+          <div id="progress-fill" class="progress-fill"></div>
+        </div>
+        <span id="progress-text">Pergunta 1 de 3</span>
+      </div>
+      <h2 id="question-text">Texto da Pergunta Aqui</h2>
+      <div id="answer-buttons" class="btn-grid"></div>
+      <p id="question-counter">Pergunta 1 de 10</p>
+    </div>
+
+    <div id="result-screen" class="container hide">
+      <h2>Você é <span id="character-name">Nome do Personagem</span>!</h2>
+      <img
+        src=""
+        alt="Personagem"
+        id="character-image"
+        style="max-width: 200px"
+      />
+      <p id="character-description">Descrição do personagem aqui.</p>
+      <p>
+        <strong>Pontuação: <span id="final-score">0</span> pontos</strong>
+      </p>
+
+      <!-- Seção de revisão das respostas -->
+      <div id="answers-review" class="answers-review">
+        <h3>📜 Suas Escolhas:</h3>
+        <div id="review-list"></div>
+      </div>
+
+      <button id="play-again-button">Jogar Novamente</button>
+    </div>
+
+    <audio id="bg-music" src="audio/trilha.mp3" loop preload="auto"></audio>
+
+    <button
+      id="enable-audio"
+      style="
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 9999;
+        padding: 12px 24px;
+        font-size: 1rem;
+        background: #c5a265;
+        border: 2px solid #5c4033;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 8px;
+      "
+    >
+      Ativar trilha sonora
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
