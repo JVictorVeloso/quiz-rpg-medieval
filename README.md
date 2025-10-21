@@ -2,7 +2,7 @@
 
 Um quiz interativo temático de RPG medieval onde você descobre qual classe de personagem combina mais com sua personalidade!
 
-![Quiz RPG Preview](https://via.placeholder.com/800x400/1a1a1a/c5a265?text=Quiz+RPG+-+Aethelgard)
+[Quiz RPG Preview](https://jvictorveloso.github.io/quiz-rpg-medieval/)
 
 ## 🎮 Sobre o Jogo
 
