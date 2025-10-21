@@ -148,7 +148,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para:
 
 ## 👨‍💻 Autor
 
-Desenvolvido com ❤️ por [Seu Nome]
+Desenvolvido com ❤️ por Victor Veloso
 
 ---
 
