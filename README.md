@@ -2,7 +2,7 @@
 
 Um quiz interativo temático de RPG medieval onde você descobre qual classe de personagem combina mais com sua personalidade!
 
-![Quiz RPG Preview](https://jvictorveloso.github.io/quiz-rpg-medieval/)
+[Quiz RPG Preview](https://jvictorveloso.github.io/quiz-rpg-medieval/)
 
 ## 🎮 Sobre o Jogo
 
